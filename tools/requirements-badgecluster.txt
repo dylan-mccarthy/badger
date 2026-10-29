@@ -1,0 +1,2 @@
+# Host graphics adapter and original asset generator. Not installed on a badge.
+Pillow==12.3.0

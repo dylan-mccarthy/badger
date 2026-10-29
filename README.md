@@ -20,6 +20,17 @@ people using the previous badge.
 The legacy simulator and Badgeware API documentation are under `badge25/`.
 They do not model the 2026 graphics and input APIs.
 
+## BadgeCluster prototype
+
+[BadgeCluster](badge/apps/badgecluster/README.md) is an offline, low-duty-cycle
+Monte Carlo pi app with Mona and statistics pages. Its coordinator and Azure
+App Service infrastructure live in the separate
+[BadgeCluster repository](https://github.com/dylan-mccarthy/BadgeCluster).
+The app also has an opt-in host test against the live Azure service.
+See [the development handoff](docs/badgecluster/development.md) to resume work,
+and [the specification and device checks](docs/badgecluster/device-spike.md)
+before enabling badge networking.
+
 ## Examples
 
 The [Apps](./badge/apps/) is folder contains all the applications that ship on the badge along

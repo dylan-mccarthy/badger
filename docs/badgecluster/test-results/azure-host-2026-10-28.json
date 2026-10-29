@@ -1,0 +1,18 @@
+{
+  "samples": 250,
+  "inside": 196,
+  "acceptedSamples": 250,
+  "responsiveFramesDuringHttps": 198,
+  "aggregateStableAcrossRetry": true,
+  "exitStopsWork": true,
+  "testScope": "CPython actual app + Pillow graphics + real Azure HTTPS; not firmware simulation",
+  "date": "2026-10-28",
+  "baseUrl": "https://badgecluster-37nlkk2a4ucny.azurewebsites.net",
+  "cluster": {
+    "samples": 250,
+    "inside": 196,
+    "activeNodes": 1,
+    "updatedAt": "2026-10-28T17:52:52.6006681+00:00",
+    "piEstimate": 3.136
+  }
+}
